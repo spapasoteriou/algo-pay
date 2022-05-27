@@ -32,7 +32,7 @@ else {
   var index = 0;
   var amount = 0;
   var note = "";
-  var recipient = "K3NSXYMHPRCK7PMYT3QUQXUGPZJ4MKWJXW2HJRYPVMQUMKJAOJEIEO4HK4"; // Default address is set to HDL seed address. Please update recipient to your address before deploying.// 
+  var recipient = "PAPA23PAWOROGLHBAL3DNHEFI76JNIET4N32OOJLJGQRKR4PMD4EE5M7PQ"; // Default address is set to HDL seed address. Please update recipient to your address before deploying.// 
 }
 class AlgoPay extends Component {
 
