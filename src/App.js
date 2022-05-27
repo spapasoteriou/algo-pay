@@ -161,7 +161,7 @@ class AlgoPay extends Component {
             <Heading.h3>{this.state.messagioHeadagio}</Heading.h3>
             <Text>{this.state.messagio}</Text>
             {this.state.tableVis ? (<div><h3 id="snoopy">{"My Address: " + this.state.address.slice(0, 20) + '...'}</h3>
-              <h3 id="snoopy">{"Amount: " + onChange(this.inputstateAmount) + " " + this.state.assetName}</h3></div>) : null}
+              <h3 id="snoopy">{"Amount: " <input type="number" onChange=(this.inputstateAmount) />  + " " + this.state.assetName}</h3></div>) : null}
           </Box>
 
           <Flex className="flexy"
